@@ -75,8 +75,7 @@ var generatePassword = function () {
     console.log(password.length)
     password = password + possibleChoices.charAt(Math.floor(Math.random() * possibleChoices.length))
   };
-  console.log(password);
-
+  return password;
 };
 
 // Get references to the #generate element
@@ -88,9 +87,8 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-
-
+  console.log(password)
+  
 };
 
 // Add event listener to generate button
