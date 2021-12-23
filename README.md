@@ -11,7 +11,7 @@ These bugs were addressed in this version, and the user should be able to genera
 View the deployed application by [clicking this link](https://tresha-gaye.github.io/TGUpasswd-gen/).
 
 ## Screenshot
-[Password Generated!](./assets/images/pwgen-works.jpg)
+![Password Generated!](./assets/images/pwgen-works.jpg)
 
 ## Contributing
 
